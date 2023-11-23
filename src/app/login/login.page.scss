@@ -1,105 +1,99 @@
 @font-face {
-    src: url(../../Fontes/AustieBostKittenKlub.ttf);
-    font-family: 'Fonte_PET';
-  }
+  src: url(../../Fontes/AustieBostKittenKlub.ttf);
+  font-family: 'Fonte_PET';
+}
   
-  h1{
-    color: rgb(140, 79, 43);
-    font-family: 'Fonte_PET';
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-  }
+h1{
+  font-family: 'Fonte_PET';
+  font-size: 40px;
+  text-align: center;
+}
   
-  body {
-    background-color: #D9F2EB;
-  }
+body {
+  background-color: #D9F2EB;
+}
   
-  svg {
-    position: absolute;
-    bottom: 0;
-  }
+svg {
+  position: absolute;
+  bottom: 0;
+}
   
-  main {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    align-items: center;
-  }
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
   
-  .svg-top {
-    position: absolute;
-    top: 0;
-  }
+.svg-top {
+  position: absolute;
+  top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 2rem;
+}
   
-  form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    gap: 2rem;
-  }
+.input-form {
+  width: 22rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: none;
+  outline-color: #2cbfa4;
+  box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
+  padding-left: 1rem;
+}
   
-  .input-form {
-    width: 22rem;
-    height: 3rem;
-    border-radius: 8px;
-    border: none;
-    outline-color: rgb(140, 79, 43);
-    box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
-    padding-left: 1rem;
-  }
+.input-form::placeholder {
+  color: #cecece;
+}
   
-  .input-form::placeholder {
-    color: #cecece;
-  }
+.input-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn {
+  padding: 0.8rem 4rem;
+  border-radius: 8px;
+  background-color: #2cbfa4;
+  color: #fff;
+  box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+}
+
+p {
+  color: #000;
+  font-size: 0.9rem;
+}
   
-  .input-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+.botao {
+  color: #DC143C;
+  font-size: 0.9rem;
+}
+
+.register-account {
+  display: flex;
+  background-color: red;
+}
+
+.register {
+  display: flex;
+  gap: 0.3rem;
+}
+
+a {
+  color: #000;
   
-  label {
-    color: rgb(140, 79, 43);
-  }
-  
-  .btn {
-    padding: 0.8rem 4rem;
-    border-radius: 8px;
-    background-color: #2cbfa4;
-    color: #fff;
-    box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
-    font-size: 1.2rem;
-  }
-  
-  p {
-    color: #000;
-    font-size: 0.9rem;
-  }
-  
-  .botao {
-    color: #DC143C;
-    font-size: 0.9rem;
-  }
-  
-  .register-account {
-    display: flex;
-    background-color: red;
-  }
-  
-  .register {
-    display: flex;
-    gap: 0.3rem;
-  }
-  
-  a {
-    color: #000;
-    
-  }
-  
-  span {
-    color: #DC143C;
-    font-size: 0.9rem;
-  }
+}
+
+span {
+  color: #DC143C;
+  font-size: 0.9rem;
+}
