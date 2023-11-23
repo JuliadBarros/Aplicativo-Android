@@ -1,54 +1,98 @@
-$cor_padrao: rgb(140, 79, 43);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 main{
     margin-top: -10px;
     padding-top: 3px;
     padding-right: 3px;
-    height: 930px;
+
     background-color: #D9F2EB;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-div{
-    background-color: rgb(44, 191, 164);
-    text-align: justify;
-    color: $cor_padrao;
-    padding: 1px 10px 1px 10px;
-    margin: 15px 8px -8px 8px; 
-    border-radius: 8px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: $cor_padrao;
-    box-shadow: 3px 3px 4px rgb(194, 192, 192);
+.cards {
+
+  display: flex;
+  flex-direction: column;
+
+  :nth-child(1) {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+  }
+
 }
 
-h1{
-    color: $cor_padrao;
-    text-align: left;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 5px 0px;
+.cards-flex {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    font-size: 1rem;
+    color: rgb(140, 79, 43);
+
+  }
+
+  svg {
+    width: 2rem;
+
+  }
 }
 
-section#fale_conosco > div{
-    background-color: rgb(242, 212, 194);
-    color: black;
-    font-weight: normal;
+.card {
+  border-bottom: 1px solid rgb(44, 191, 164);
+  display: flex;
+  padding: 1rem;
+  background-color:  #fff;
+  flex-direction: column;
+
+
+  color: #000;
 }
 
-div#localizacao{
-    text-align: center;
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(44, 191, 164);
 }
 
-div#contato > ul{
-    color: $cor_padrao;
+.cards-map {
+
+  h1 {
+    font-size: 1.5rem;
+    color: rgb(44, 191, 164);
+  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-iframe{
-    border-radius: 8px;    
+.cards-column {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 1.5rem;
+    color: rgb(44, 191, 164);
+    margin-bottom: 2rem;
+  }
+
+  .box-icon {
+    margin-top: -2rem;
+  }
 }
 
-a{
-    text-decoration: none;
-    color: $cor_padrao;
+.box-icon {
+
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  svg {
+    width: 2rem;
+  }
 }
