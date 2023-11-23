@@ -1,0 +1,60 @@
+$cor_padrao: rgb(140, 79, 43);
+
+main{
+    margin-top: -10px;
+    padding-top: 3px;
+    padding-right: 3px;
+    height: 950px;
+    background-color: #D9F2EB;
+    font-family: sans-serif;
+}
+
+section#servicos{
+    background-color: rgb(44, 191, 164);
+    text-align: justify;
+    color: white;
+    padding: 1px 10px 1px 10px;
+    margin: 15px 8px 0px 8px; 
+    border-radius: 8px;
+    border: 1px solid $cor_padrao;
+    box-shadow: 3px 3px 4px rgb(194, 192, 192);
+}
+section#servicos > h1{
+    color: $cor_padrao;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 5px 0px;
+}
+ul{
+    background-color: #FDDCCF; /*rgb(242, 212, 194); */
+    color: $cor_padrao;
+    padding: 5px 10px 1px -30px; 
+    margin: 30px 8px -20px 8px; 
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $cor_padrao;
+    box-shadow: 3px 3px 4px rgb(194, 192, 192);
+    height: 150px;
+}
+
+ul#hotelzinho{
+    height: 240px;
+}
+
+img{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    padding: -10px 0px 5px 5px;
+    margin: 20px 40px 10px -30px;
+    border-radius: 8px;
+    border: 1px solid $cor_padrao;
+    box-shadow: 3px 3px 4px rgb(194, 192, 192);
+}
+
+li{
+    list-style: disc;
+    margin: 10px 0px -10px -30px; 
+}

@@ -1,0 +1,54 @@
+$cor_padrao: rgb(140, 79, 43);
+
+main{
+    margin-top: -10px;
+    padding-top: 3px;
+    padding-right: 3px;
+    height: 930px;
+    background-color: #D9F2EB;
+    font-family: sans-serif;
+}
+
+div{
+    background-color: rgb(44, 191, 164);
+    text-align: justify;
+    color: $cor_padrao;
+    padding: 1px 10px 1px 10px;
+    margin: 15px 8px -8px 8px; 
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $cor_padrao;
+    box-shadow: 3px 3px 4px rgb(194, 192, 192);
+}
+
+h1{
+    color: $cor_padrao;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+section#fale_conosco > div{
+    background-color: rgb(242, 212, 194);
+    color: black;
+    font-weight: normal;
+}
+
+div#localizacao{
+    text-align: center;
+}
+
+div#contato > ul{
+    color: $cor_padrao;
+}
+
+iframe{
+    border-radius: 8px;    
+}
+
+a{
+    text-decoration: none;
+    color: $cor_padrao;
+}

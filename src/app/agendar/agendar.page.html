@@ -1,0 +1,70 @@
+
+<ion-content [fullscreen]="true">
+
+
+  <body>
+    <!-- Início do formulário -->
+
+    <form>
+      <h1>Agendar Serviço</h1>
+      <div class="input-content">
+        <label for="">Nome do Tutor:</label>
+        <input type="text" class="input-form" placeholder="Digite seu nome">
+      </div>
+
+      <div class="input-content">
+        <label for="">Email:</label>
+        <input type="text" class="input-form" placeholder="seuemail@exemplo.com">
+      </div>
+
+      <div class="input-content">
+        <label for="">Nome do PET:</label>
+        <input type="text" class="input-form" placeholder="Digite o nome do seu pet">
+      </div>
+
+      <div class="input-content">
+        <label for="">Celular:</label>
+        <input type="text" class="input-form" placeholder="(00) 0 0000-0000">
+      </div>
+
+      <div class="input-content" >
+        <label for="Serviços">Serviços</label>
+
+        <select id="Serviços" required>
+          <option selected disabled value="">Selecione</option>
+          <option>Banho</option>
+          <option>Tosa</option>
+          <option>Banho e Tosa</option>
+          <option>Consulta veterinária</option>
+          <option>Hotelzinho</option>
+        </select>
+
+        <div class="data-time">
+          <div class="input-content">
+            <label for="">Data</label>
+            <input type="date" class="input-data">
+          </div>
+
+          <div class="input-content">
+            <label for="data">Horário</label>
+            <input type="time" class="input-data">
+          </div>
+        </div>
+      </div>
+
+      <button id="present-alert" class="btn">Reservar</button>
+      <ion-alert
+        trigger="present-alert"
+        header="Pets Mimados"
+        message="Reserva realizada."
+        [buttons]="alertButtons"
+        (didDismiss)="showMenu()"
+      ></ion-alert>
+    </form>
+
+  </body>
+
+</ion-content>
+
+
+
