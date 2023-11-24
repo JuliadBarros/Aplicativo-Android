@@ -50,15 +50,11 @@ form {
   color: #cecece;
 }
 
-/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button>
-textos dos campos selecionados
-*/
-
 h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.4rem;
-  margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 1.8rem;
 }
 select{
     font-family: sans-serif;
@@ -73,7 +69,7 @@ select{
 }
 
 option {
-  border-radius: 8px;
+    border-radius: 8px;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -123,69 +119,25 @@ fieldset.grupo .campo {
     left: 240px;
 }
 
-/*cor de fundo de quando selecionamos um campo*/
-.campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: rgb(248, 234, 225);
-}
-
-/* Elemento de classe "botao" */
-.botao {
-    font-size: 1.2em;
-    background: #2cbfa4;
-    color: black;
-    padding: 0.4em 0.7em;
-    box-shadow: 3px 3px 4px rgb(194, 192, 192);
-    border-radius: 8px;
-    position: absolute;
-    top: 515px;
-    left: 206px;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
-.botao:hover {
-    background: rgb(248, 234, 225);
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-}
-
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
+.select{
     cursor: pointer;
 }
 
-/*Customização do botão*/
-
-ion-button{
-    font-size: 1.2em;
-    background: rgb(114, 230, 114);
-    color: black;
-    /*padding: 0.4em 0.7em;*/
-    box-shadow: 3px 3px 4px rgb(194, 192, 192);
-    border-radius: 8px;
-    position: absolute;
-    top: 515px;
-    left: 206px;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
 .data-time {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .input-data {
-  box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-  width: 10rem;
-  border-radius: 8px;
-  height: 2.5rem;
-  border: none;
-  outline-color: #2cbfa4;
-  padding-left: 1rem;
+    box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 10rem;
+    border-radius: 8px;
+    height: 2.5rem;
+    border: none;
+    outline-color: #2cbfa4;
+    padding-left: 1rem;
 }
 
 .btn {
