@@ -2,29 +2,29 @@
   src: url(../../Fontes/AustieBostKittenKlub.ttf);
   font-family: 'Fonte_PET';
 }
-
+  
 h1{
   font-family: 'Fonte_PET';
   font-size: 40px;
   text-align: center;
 }
-
+  
 body {
   background-color: #D9F2EB;
 }
-
+  
 svg {
   position: absolute;
   bottom: 0;
 }
-
+  
 main {
   display: flex;
   flex-direction: column;
   height: 100vh;
   align-items: center;
 }
-
+  
 .svg-top {
   position: absolute;
   top: 0;
@@ -38,7 +38,7 @@ form {
   height: 80vh;
   gap: 2rem;
 }
-
+  
 .input-form {
   width: 22rem;
   height: 3rem;
@@ -48,11 +48,11 @@ form {
   box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
   padding-left: 1rem;
 }
-
+  
 .input-form::placeholder {
   color: #cecece;
 }
-
+  
 .input-content {
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ p {
   color: #000;
   font-size: 0.9rem;
 }
-
+  
 .botao {
   color: #DC143C;
   font-size: 0.9rem;
@@ -90,7 +90,7 @@ p {
 
 a {
   color: #000;
-
+  
 }
 
 span {

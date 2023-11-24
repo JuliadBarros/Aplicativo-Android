@@ -1,70 +1,69 @@
 <ion-content [fullscreen]="true">
   <body>
    <main>
-
+     
      <h1>Seja bem-vindo(a)</h1>
-
+ 
      <div class="cards-column">
        <!-- Icone e texto Agendar -->
        <div class="cards-flex">
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showAgendar()">
              <div class="card">
-               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="rgb(44, 191, 164)" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM169.66,133.66l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35a8,8,0,0,1,11.32,11.32ZM48,80V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80Z"></path></svg>
-             </div>
+               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="#8c4f2b" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM169.66,133.66l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35a8,8,0,0,1,11.32,11.32ZM48,80V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80Z"></path></svg>
+             </div>      
            </ion-button>
          </ion-buttons>
-
+ 
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showAgendar()"> Agendar </ion-button>
          </ion-buttons>
-
+ 
          <!-- Icone e texto Serviços -->
          <ion-buttons>
-           <ion-button class="botao" size="large" (click)="showServicos()">
+           <ion-button class="botao" size="large" (click)="showServicos()"> 
              <div class="card">
-               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="rgb(44, 191, 164)" viewBox="0 0 256 256"><path d="M240,108a28,28,0,1,1-28-28A28,28,0,0,1,240,108ZM72,108a28,28,0,1,0-28,28A28,28,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28,28,0,0,0,92,88Zm72,0a28,28,0,1,0-28-28A28,28,0,0,0,164,88Zm23.12,60.86a35.3,35.3,0,0,1-16.87-21.14,44,44,0,0,0-84.5,0A35.25,35.25,0,0,1,69,148.82,40,40,0,0,0,88,224a39.48,39.48,0,0,0,15.52-3.13,64.09,64.09,0,0,1,48.87,0,40,40,0,0,0,34.73-72Z"></path></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="#8c4f2b" viewBox="0 0 256 256"><path d="M240,108a28,28,0,1,1-28-28A28,28,0,0,1,240,108ZM72,108a28,28,0,1,0-28,28A28,28,0,0,0,72,108ZM92,88A28,28,0,1,0,64,60,28,28,0,0,0,92,88Zm72,0a28,28,0,1,0-28-28A28,28,0,0,0,164,88Zm23.12,60.86a35.3,35.3,0,0,1-16.87-21.14,44,44,0,0,0-84.5,0A35.25,35.25,0,0,1,69,148.82,40,40,0,0,0,88,224a39.48,39.48,0,0,0,15.52-3.13,64.09,64.09,0,0,1,48.87,0,40,40,0,0,0,34.73-72Z"></path></svg>
              </div>
            </ion-button>
          </ion-buttons>
-
+ 
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showServicos()"> Serviços </ion-button>
          </ion-buttons>
-
+ 
        </div>
-
+ 
        <div class="cards-flex">
          <!-- Icone e texto Agendamentos -->
          <ion-buttons>
-           <ion-button class="botao" size="large" (click)="showAgendamentos()">
+           <ion-button class="botao" size="large" (click)="showAgendamentos()"> 
              <div class="card">
-               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="rgb(44, 191, 164)" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM112,184a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm56-8a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136a23.76,23.76,0,0,1-4.84,14.45L152,176ZM48,80V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80Z"></path></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="#8c4f2b" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM112,184a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm56-8a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136a23.76,23.76,0,0,1-4.84,14.45L152,176ZM48,80V48H72v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80Z"></path></svg>
              </div>
            </ion-button>
          </ion-buttons>
-
+ 
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showAgendamentos()"> Agendamentos </ion-button>
          </ion-buttons>
-
-         <!-- Icone e texto Sobre Nos -->
+ 
+         <!-- Icone e texto Sobre Nos -->      
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showSobreNos()">
              <div class="card">
-               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="rgb(44, 191, 164)" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="#8c4f2b" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path></svg>
              </div>
            </ion-button>
          </ion-buttons>
-
+ 
          <ion-buttons>
            <ion-button class="botao" size="large" (click)="showSobreNos()"> Sobre nós </ion-button>
          </ion-buttons>
-
+         
        </div>
      </div>
    </main>
-
-
   </body>
  </ion-content>
+ 
