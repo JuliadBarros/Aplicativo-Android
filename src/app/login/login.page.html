@@ -1,35 +1,39 @@
 <ion-header [translucent]="true">
-
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <body>
+  <body>  
+    <form action="">
+      <div class="title">
+        <img src="assets/icon/logo14.png" width="100%">
+        <p class="sub-title">Login</p>
+      </div>
 
-    <main>
-      <svg class="svg-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2cbfa4" fill-opacity="1" d="M0,320L48,282.7C96,245,192,171,288,165.3C384,160,480,224,576,224C672,224,768,160,864,138.7C960,117,1056,139,1152,165.3C1248,192,1344,224,1392,240L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-      <form action="">
-        <h1>Pets Mimados</h1>
+      <div class="input-content">
+        <ion-item>
+          <ion-input placeholder="Email" class="input-form"></ion-input>
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-item>
 
-        <div class="input-content">
-          <label for="">Email</label>
-          <input type="text" class="input-form" placeholder="seuemail@exemplo.com">
-        </div>
+        <ion-item>
+          <ion-input 
+            placeholder="Senha" 
+            type="password"  
+            class="input-form">
+          </ion-input>
+          <ion-icon name="lock-closed-outline"></ion-icon>
+        </ion-item>
+      </div>
 
-        <div class="input-content">
-          <label for="">Senha</label>
-          <input type="password" class="input-form" placeholder="********">
-        </div>
-
-        <button class="btn" (click)="showMenu()">Entrar</button>
-
+      <div class="login">
         <p class="register">
           Não possui conta?
-          <a class="link" (click)="showCadastro()"><span>Cadastre-se</span> agora</a>
+          <a class="link" (click)="showCadastro()"><span>Cadastre-se</span></a>
+          agora
         </p>
-
-      </form>
-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2cbfa4" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,208C384,181,480,107,576,69.3C672,32,768,32,864,37.3C960,43,1056,53,1152,69.3C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </main>
+        <button class="btn" (click)="showMenu()">Entrar</button>
+      </div>
+    </form>
+    
   </body>
 </ion-content>

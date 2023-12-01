@@ -1,52 +1,39 @@
-@font-face {
-  src: url(../../Fontes/AustieBostKittenKlub.ttf);
-  font-family: 'Fonte_PET';
-}
-  
-h1{
-  font-family: 'Fonte_PET';
-  font-size: 3rem;
-  text-align: center;
-}
-  
 body {
-  background-color: #D9F2EB;
-}
-  
-svg {
-  position: absolute;
-  bottom: 0;
-}
-  
-main {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-}
-  
-.svg-top {
-  position: absolute;
-  top: 0;
+  background-image: linear-gradient(#85EBD8, #D9F2EB);
 }
 
-form {
+/*Titulos e subtitulos*/
+img{
+  border-radius: 10px;
+}
+
+.title{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  gap: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  .sub-title{
+    font-weight: bold;
+    margin-top: 5rem;
+    color: #000;
+    font-size: 1.5rem;
+  }
 }
-  
-.input-form {
-  width: 22rem;
+
+ion-title{
+  font-family: 'Fonte_PET';
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+/*Campos de login*/
+ion-item {
+  width: 19rem;
   height: 3rem;
   border-radius: 8px;
-  border: none;
-  outline-color: #2cbfa4;
-  box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
-  padding-left: 1rem;
+  box-shadow: 5px 5px 10px 0px #c4c4c4;
 }
   
 .input-form::placeholder {
@@ -56,44 +43,42 @@ form {
 .input-content {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
 }
 
+/*login*/
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+/*Botão de Entrar*/
 .btn {
-  padding: 0.8rem 4rem;
+  padding: 0.8rem 3.8rem;
   border-radius: 8px;
   background-color: #2cbfa4;
   color: #fff;
-  box-shadow: -4px 10px 15px -3px rgba(0,0,0,0.1);
+  box-shadow: 5px 5px 10px 0px #c4c4c4;
   font-size: 1.2rem;
 }
 
+/* Parte de não possui conta */
 p {
-  color: #000;
-  font-size: 0.9rem;
-}
-  
-.botao {
-  color: #DC143C;
-  font-size: 0.9rem;
-}
-
-.register-account {
-  display: flex;
-  background-color: red;
-}
+  font-family: 'Montserrat';
+  color: gray;
+  font-size: 0.8rem;
+} 
 
 .register {
   display: flex;
-  gap: 0.3rem;
-}
-
-a {
-  color: #000;
-  
+  gap: 0.2rem;
 }
 
 span {
   color: #DC143C;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
