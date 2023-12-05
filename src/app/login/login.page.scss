@@ -3,10 +3,6 @@ body {
 }
 
 /*Titulos e subtitulos*/
-img{
-  border-radius: 10px;
-}
-
 .title{
   display: flex;
   flex-direction: column;
@@ -22,15 +18,9 @@ img{
   }
 }
 
-ion-title{
-  font-family: 'Fonte_PET';
-  font-size: 3.2rem;
-  text-align: center;
-}
-
 /*Campos de login*/
 ion-item {
-  width: 19rem;
+  width: 20rem;
   height: 3rem;
   border-radius: 8px;
   box-shadow: 5px 5px 10px 0px #c4c4c4;
@@ -45,7 +35,7 @@ ion-item {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
 /*login*/
@@ -55,15 +45,6 @@ ion-item {
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
-}
-/*Botão de Entrar*/
-.btn {
-  padding: 0.8rem 3.8rem;
-  border-radius: 8px;
-  background-color: #2cbfa4;
-  color: #fff;
-  box-shadow: 5px 5px 10px 0px #c4c4c4;
-  font-size: 1.2rem;
 }
 
 /* Parte de não possui conta */
