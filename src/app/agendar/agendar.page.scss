@@ -1,154 +1,52 @@
-@font-face {
-    src: url(../../Fontes/AustieBostKittenKlub.ttf);
-    font-family: 'Fonte_PET';
-}
-
-/* Todos os elementos da página */
-* {
-    margin: 0;
-    padding-top: 5px;
-}
-
-/* fieldset deixa uma bordinha, ai para tirar, definimos como 0*/
-fieldset {
-    border: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Elemento de tag <body> */
-body{
-    background-color: #D9F2EB;
-    font-family: sans-serif;
-}
-
-form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 0.6rem;
-  margin-top: 2rem;
-}
-
-.input-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-}
-
-.input-form {
-  width: 22rem;
-  height: 2.5rem;
-  border: none;
-  outline-color: #2cbfa4;
-  border-radius: 8px;
-  padding-left: 1rem;
-  box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-}
-
-.input-form::placeholder {
-  color: #cecece;
-}
-
 h1 {
     font-weight: bold;
     font-size: 1.5rem;
-    text-transform: uppercase;
-    margin-top: 1.8rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
-select{
-    font-family: sans-serif;
-    font-size: 1em;
+/* Ajustando todo o conteúdo*/
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-top: 5rem;
+}
+
+/* Ajustando o conteudo de input na página*/
+.input-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+/*Configuração padrão dos campos*/
+ion-item {
+    width: 20rem;
+    height: 3rem;
     border-radius: 8px;
-    width: 22rem;
-    height: 2.5rem;
-    border: none;
-    padding-left: 1rem;
-    outline-color: #2cbfa4;
-    box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 10px 0px #c4c4c4;
 }
-
-option {
-    border-radius: 8px;
-}
-
-/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
-.grupo:before, .grupo:after {
-    display: table;
-}
-
-/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
-.grupo:after {
-    clear: both;
-}
-
-/* Elementos de classe "campo" */
-.campo {
-    margin-bottom: 1em;
-}
-
-/* Elementos de classe "campo" de tag <label> */
-.campo label {
-    margin-bottom: 0.2em;
-    display: block;
-}
-
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
-fieldset.grupo .campo {
-    margin-left: 25%;
-}
-
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo input[type="date"], .campo input[type="time"], .campo select, .campo textarea {
-    padding: 0.2em;
-    width: 200px;
-    border: 1px solid #2cbfa4;
-    box-shadow: 3px 3px 4px rgb(194, 192, 192);
-    display: block;
-}
-.campo input[type="date"]{
-    width: 125px;
-}
-
-/*Colocar o horario ao lado do calendário*/
-.campo input[type="time"]{
-    position: absolute;
-    width: 82px;
-    height: 28px;
-    top: 415px;
-    left: 240px;
-}
-
-/* Elementos de classe botão e de tag <select> */
-.select{
-    cursor: pointer;
-}
-
+    
+/*Deixar o horário ao lado da data*/
 .data-time {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+}
+/*Distanciar o nome do icone*/
+.servico{
+    color: #979797;
+    margin-left: 0.5rem;
 }
 
-.input-data {
-    box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-    width: 10rem;
-    border-radius: 8px;
-    height: 2.5rem;
-    border: none;
-    outline-color: #2cbfa4;
-    padding-left: 1rem;
+/*Para ajustar o tamanho apenas dos campos de data e horario*/
+.input-select{
+    width: 9.5rem;
 }
-
-.btn {
-    font-weight: bold;
-    margin-top: 2rem;
-    background-color: #2cbfa4;
-    color: #fff;
-    font-size: 1rem;
-    border-radius: 8px;
-    border: none;
-    padding: 1rem 2rem;
-    box-shadow: 14px 8px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+.btn{
+    padding: 0.8rem 2.2rem;
 }
-  

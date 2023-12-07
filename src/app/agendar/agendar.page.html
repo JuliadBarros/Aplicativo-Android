@@ -1,51 +1,77 @@
 <ion-content [fullscreen]="true">
   <body>
-    <!-- Início do formulário -->
-
     <form>
-      <h1>Agendar Serviço</h1>
-      <div class="input-content">
-        <label for="">Nome do Tutor:</label>
-        <input type="text" class="input-form" placeholder="Digite seu nome">
+      <div class="title">
+        <h1>Agendar Serviço</h1>
       </div>
 
       <div class="input-content">
-        <label for="">Email:</label>
-        <input type="text" class="input-form" placeholder="seuemail@exemplo.com">
-      </div>
+        <ion-item>
+          <ion-input placeholder="Nome do Tutor"></ion-input>
+          <ion-icon name="person-outline"></ion-icon>
+        </ion-item>
+  
+        <ion-item>
+          <ion-input placeholder="Email"></ion-input>
+          <ion-icon name="mail-outline"></ion-icon>
+        </ion-item>
 
-      <div class="input-content">
-        <label for="">Nome do PET:</label>
-        <input type="text" class="input-form" placeholder="Digite o nome do seu pet">
-      </div>
+        <ion-item>
+          <ion-input placeholder="Nome do Pet"></ion-input>
+          <ion-icon name="paw-outline"></ion-icon>
+        </ion-item>
 
-      <div class="input-content">
-        <label for="">Celular:</label>
-        <input type="text" class="input-form" placeholder="(00) 0 0000-0000">
-      </div>
+        <ion-item>
+          <ion-input placeholder="Celular"></ion-input>
+          <ion-icon name="call-outline"></ion-icon>
+        </ion-item>
 
-      <div class="input-content" >
-        <label for="Serviços">Serviços</label>
-
-        <select id="Serviços" required>
-          <option selected disabled value="">Selecione</option>
-          <option>Banho</option>
-          <option>Tosa</option>
-          <option>Banho e Tosa</option>
-          <option>Consulta veterinária</option>
-          <option>Hotelzinho</option>
-        </select>
-
+        <div>
+          <ion-item>
+            <ion-icon name="paw-outline"></ion-icon>
+            <ion-select 
+              label="Serviços"
+              interface="popover" 
+              class="servico">
+              <ion-select-option value="Banho">Banho</ion-select-option>
+              <ion-select-option value="Tosa">Tosa</ion-select-option>
+              <ion-select-option value="Banho e Tosa">Banho e Tosa</ion-select-option>
+              <ion-select-option value="Consulta veterinária">Consulta veterinária</ion-select-option>
+              <ion-select-option value="Hotelzinho">Hotelzinho</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </div>
         <div class="data-time">
-          <div class="input-content">
-            <label for="">Data</label>
-            <input type="date" class="input-data">
-          </div>
+          <ion-item class="input-select">
+            <ion-icon name="calendar-outline"></ion-icon>
+            <ion-select 
+              interface="popover" 
+              placeholder="Datas" 
+              justify="end">
+              <ion-select-option value="04/01">Qui - 04/01</ion-select-option>
+              <ion-select-option value="05/01">Sex - 05/01</ion-select-option>
+              <ion-select-option value="06/01">Sab - 06/01</ion-select-option>
+              <ion-select-option value="08/01">Seg - 08/01</ion-select-option>
+              <ion-select-option value="09/01">Ter - 09/01</ion-select-option>
+            </ion-select>
+          </ion-item>
 
-          <div class="input-content">
-            <label for="data">Horário</label>
-            <input type="time" class="input-data">
-          </div>
+          <ion-item class="input-select">
+            <ion-icon name="time-outline"></ion-icon>
+            <ion-select 
+              interface="popover"           
+              placeholder="Horários"           
+              justify="end">
+              <ion-select-option>08:00</ion-select-option>
+              <ion-select-option>08:30</ion-select-option>
+              <ion-select-option>09:00</ion-select-option>
+              <ion-select-option>09:30</ion-select-option>
+              <ion-select-option>10:00</ion-select-option>
+              <ion-select-option>08:00</ion-select-option>
+              <ion-select-option>13:00</ion-select-option>
+              <ion-select-option>13:30</ion-select-option>
+            </ion-select>
+          </ion-item>
         </div>
       </div>
 
@@ -58,7 +84,6 @@
         (didDismiss)="showMenu()"
       ></ion-alert>
     </form>
-
   </body>
 </ion-content>
 
