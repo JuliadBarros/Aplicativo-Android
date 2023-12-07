@@ -1,13 +1,8 @@
-body {
-    background-color: #D9F2EB;
-}
-
 h1 {
-  margin-top: 6rem;
   text-align: center;
-  font-size: 1.5rem;
-  text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 10rem;
 }
 
 .cards-column {
@@ -22,8 +17,6 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
-
 }
 
 .card {
@@ -36,6 +29,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 1rem;
 }
 
 .botao{

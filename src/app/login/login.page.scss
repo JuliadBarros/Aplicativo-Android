@@ -1,7 +1,3 @@
-body {
-  background-image: linear-gradient(#85EBD8, #D9F2EB);
-}
-
 /*Titulos e subtitulos*/
 .title{
   display: flex;
@@ -25,7 +21,8 @@ ion-item {
   border-radius: 8px;
   box-shadow: 5px 5px 10px 0px #c4c4c4;
 }
-  
+
+/* Ajustando o conteudo de input na página*/
 .input-content {
   display: flex;
   flex-direction: column;
@@ -34,7 +31,7 @@ ion-item {
   gap: 1rem;
 }
 
-/*login*/
+/* Parte de não possui conta */
 .login{
   display: flex;
   flex-direction: column;
@@ -43,7 +40,6 @@ ion-item {
   margin-top: 4rem;
 }
 
-/* Parte de não possui conta */
 p {
   font-family: 'Montserrat';
   color: gray;

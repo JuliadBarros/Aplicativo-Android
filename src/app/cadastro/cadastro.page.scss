@@ -1,10 +1,11 @@
-
 h1 {
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
 }
+
+/* Ajustando todo o conteúdo*/
 form {
     display: flex;
     align-items: center;
@@ -13,8 +14,7 @@ form {
     margin-top: 5rem;
 }
 
-/*Campos de cadastro*/
-
+/*Configuração padrão dos campos*/
 ion-item {
     width: 20rem;
     height: 3rem;
@@ -22,6 +22,7 @@ ion-item {
     box-shadow: 5px 5px 10px 0px #c4c4c4;
 }
 
+/* Ajustando o conteudo de input na página*/
 .input-content {
     display: flex;
     flex-direction: column;
@@ -29,10 +30,4 @@ ion-item {
     align-items: center;
     gap: 1rem;
     margin-bottom: 4rem;
-}
-
-/*Botão de cadastrar*/
-.btn {
-    padding: 0.8rem 3rem;
-
 }
