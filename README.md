@@ -1,6 +1,12 @@
 # Pets mimados 🐾
 O aplicativo traz algumas informações sobre a loja fictícia Pets Mimados, desde os serviços fornecidos por ela, sua localização e meio de contato. Além disso conta com uma página para agendamentos tanto de banhos e tosas e até para consultas veterinárias.
 
+<div  align="center">
+  
+  ## 🎬Demostração do aplicativo
+  
+  https://github.com/JuliadBarros/Aplicativo-Android/assets/141595057/d49b8d2f-e0f9-44e0-a336-6fab268d1da6
+</div>
 
 ## 📋 Funcionalidades
 - Possui as seguintes telas:
